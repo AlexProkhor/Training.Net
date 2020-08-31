@@ -1,0 +1,13 @@
+E:\Projects\Training.Net\IntersectionOfLineSegments\bin\Debug\netcoreapp3.1\IntersectionOfLineSegments.exe
+E:\Projects\Training.Net\IntersectionOfLineSegments\bin\Debug\netcoreapp3.1\IntersectionOfLineSegments.deps.json
+E:\Projects\Training.Net\IntersectionOfLineSegments\bin\Debug\netcoreapp3.1\IntersectionOfLineSegments.runtimeconfig.json
+E:\Projects\Training.Net\IntersectionOfLineSegments\bin\Debug\netcoreapp3.1\IntersectionOfLineSegments.runtimeconfig.dev.json
+E:\Projects\Training.Net\IntersectionOfLineSegments\bin\Debug\netcoreapp3.1\IntersectionOfLineSegments.dll
+E:\Projects\Training.Net\IntersectionOfLineSegments\bin\Debug\netcoreapp3.1\IntersectionOfLineSegments.pdb
+E:\Projects\Training.Net\IntersectionOfLineSegments\obj\Debug\netcoreapp3.1\IntersectionOfLineSegments.AssemblyInfoInputs.cache
+E:\Projects\Training.Net\IntersectionOfLineSegments\obj\Debug\netcoreapp3.1\IntersectionOfLineSegments.AssemblyInfo.cs
+E:\Projects\Training.Net\IntersectionOfLineSegments\obj\Debug\netcoreapp3.1\IntersectionOfLineSegments.csproj.CoreCompileInputs.cache
+E:\Projects\Training.Net\IntersectionOfLineSegments\obj\Debug\netcoreapp3.1\IntersectionOfLineSegments.dll
+E:\Projects\Training.Net\IntersectionOfLineSegments\obj\Debug\netcoreapp3.1\IntersectionOfLineSegments.pdb
+E:\Projects\Training.Net\IntersectionOfLineSegments\obj\Debug\netcoreapp3.1\IntersectionOfLineSegments.genruntimeconfig.cache
+E:\Projects\Training.Net\IntersectionOfLineSegments\obj\Debug\netcoreapp3.1\IntersectionOfLineSegments.csprojAssemblyReference.cache

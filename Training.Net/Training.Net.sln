@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "strSpeedTest", "strSpeedTest.csproj", "{02F168C8-2FF4-451E-8D66-10989F0A4520}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lesson_1", "lesson_1", "{1DCB8354-8347-4B3C-A74F-C73597FEFD7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntersectionOfLines", "..\IntersectionOfLineSegments\IntersectionOfLines.csproj", "{2EBE2EB8-CCE4-429C-BAAF-06395261CD53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{02F168C8-2FF4-451E-8D66-10989F0A4520}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02F168C8-2FF4-451E-8D66-10989F0A4520}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02F168C8-2FF4-451E-8D66-10989F0A4520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EBE2EB8-CCE4-429C-BAAF-06395261CD53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EBE2EB8-CCE4-429C-BAAF-06395261CD53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EBE2EB8-CCE4-429C-BAAF-06395261CD53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EBE2EB8-CCE4-429C-BAAF-06395261CD53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2EBE2EB8-CCE4-429C-BAAF-06395261CD53} = {1DCB8354-8347-4B3C-A74F-C73597FEFD7C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {049411C1-903C-4B32-BFA2-040D779A2E20}
