@@ -4,6 +4,16 @@
     ".NETCoreApp,Version=v3.1": {
       "StyleCop.Analyzers/1.1.118": {
         "type": "package"
+      },
+      "IsItSquareLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/IsItSquareLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IsItSquareLib.dll": {}
+        }
       }
     }
   },
@@ -32,10 +42,16 @@
         "tools/install.ps1",
         "tools/uninstall.ps1"
       ]
+    },
+    "IsItSquareLib/1.0.0": {
+      "type": "project",
+      "path": "../IsItSquareLib/IsItSquareLib.csproj",
+      "msbuildProject": "../IsItSquareLib/IsItSquareLib.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "IsItSquareLib >= 1.0.0",
       "StyleCop.Analyzers >= 1.1.118"
     ]
   },
@@ -69,7 +85,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Projects\\Training.Net\\IsItSquareLib\\IsItSquareLib.csproj": {
+              "projectPath": "E:\\Projects\\Training.Net\\IsItSquareLib\\IsItSquareLib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

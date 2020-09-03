@@ -110,9 +110,8 @@ namespace IntersectionOfLineSegments
             else
             {
                 int minValue, generalMaxRange;
-                /// <summary>
-                /// Get general min value.
-                /// </summary>
+
+                // Get general min value.
                 if (abMin < cdMin)
                 {
                     minValue = cdMin;
@@ -126,9 +125,7 @@ namespace IntersectionOfLineSegments
                     minValue = abMin;
                 }
 
-                /// <summary>
-                /// Get general max value.
-                /// </summary>
+                // Get general max value.
                 if (abMax < cdMax)
                 {
                     generalMaxRange = abMax;
@@ -142,9 +139,7 @@ namespace IntersectionOfLineSegments
                     generalMaxRange = abMax;
                 }
 
-                /// <summary>
-                /// Return intersection of lines.
-                /// </summary>
+                // Return intersection of lines.
                 while (minValue - 1 != generalMaxRange)
                 {
                     Console.Write($"{minValue} ");

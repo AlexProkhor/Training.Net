@@ -1,0 +1,9 @@
+E:\Projects\Training.Net\IsItSquareLib\bin\Debug\netcoreapp3.1\IsItSquareLib.deps.json
+E:\Projects\Training.Net\IsItSquareLib\bin\Debug\netcoreapp3.1\IsItSquareLib.dll
+E:\Projects\Training.Net\IsItSquareLib\bin\Debug\netcoreapp3.1\IsItSquareLib.pdb
+E:\Projects\Training.Net\IsItSquareLib\obj\Debug\netcoreapp3.1\IsItSquareLib.AssemblyInfoInputs.cache
+E:\Projects\Training.Net\IsItSquareLib\obj\Debug\netcoreapp3.1\IsItSquareLib.AssemblyInfo.cs
+E:\Projects\Training.Net\IsItSquareLib\obj\Debug\netcoreapp3.1\IsItSquareLib.csproj.CoreCompileInputs.cache
+E:\Projects\Training.Net\IsItSquareLib\obj\Debug\netcoreapp3.1\IsItSquareLib.dll
+E:\Projects\Training.Net\IsItSquareLib\obj\Debug\netcoreapp3.1\IsItSquareLib.pdb
+E:\Projects\Training.Net\IsItSquareLib\bin\Debug\netcoreapp3.1\IsItSquareLib.xml

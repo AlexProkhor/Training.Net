@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IsItSquareLib</name>
+    </assembly>
+    <members>
+        <member name="T:IsItSquareLib.Points">
+            <summary>
+            Coordinates of points.
+            </summary>
+        </member>
+        <member name="P:IsItSquareLib.Points.X">
+            <summary>
+            Gets or sets x coordinate.
+            </summary>
+        </member>
+        <member name="P:IsItSquareLib.Points.Y">
+            <summary>
+            Gets or sets y coordinate.
+            </summary>
+        </member>
+        <member name="T:IsItSquareLib.GetLastPointClass">
+            <summary>
+            Get coordinates of last point.
+            </summary>
+        </member>
+        <member name="M:IsItSquareLib.GetLastPointClass.GetLastPoint(IsItSquareLib.Points,IsItSquareLib.Points,IsItSquareLib.Points,IsItSquareLib.Points)">
+            <summary>
+            Get coordinates of last point.
+            </summary>
+            <param name="pointA"> PointA.</param>
+            <param name="pointB">PointB.</param>
+            <param name="pointC">PointC.</param>
+            <param name="pointD">PointD.</param>
+        </member>
+    </members>
+</doc>

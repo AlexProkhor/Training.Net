@@ -6,6 +6,7 @@ namespace IsItSquare
 {
     using System;
     using System.Text;
+    using IsItSquareLib;
 
     /// <summary>
     /// Заданы координаты трех точек на плоскости. Являются ли они вершинами квадрата? Если да, то найти координаты четвертой вершины.
@@ -21,6 +22,7 @@ namespace IsItSquare
             var pointA = new Points();
             var pointB = new Points();
             var pointC = new Points();
+            var pointD = new Points();
 
             Console.WriteLine("Введите 3 точки:");
             Console.WriteLine("Точка A:");
@@ -34,93 +36,18 @@ namespace IsItSquare
             Console.WriteLine("Точка C:");
             pointСoordinates = Console.ReadLine();
             GetPointCoordinates(pointСoordinates, pointC);
-
-            IsItSquare(pointA, pointB, pointC);
-        }
-
-        /// <summary>
-        /// Get coordinates of last point.
-        /// </summary>
-        /// <param name="pointA"> PointA.</param>
-        /// <param name="pointB">PointB.</param>
-        /// <param name="pointC">PointC.</param>
-        public static void GetLastPoint(Points pointA, Points pointB, Points pointC)
-        {
-            var pointD = new Points();
-
-            // Get x coordinate.
-            if (pointA.X == pointC.X && pointB.X == pointC.X)
-            {
-                pointD.X = pointA.X;
-            }
-            else if (pointA.X == pointB.X && pointB.X > pointC.X)
-            {
-                pointD.X = pointA.X - pointC.X;
-            }
-            else if (pointA.X == pointB.X && pointB.X < pointC.X)
-            {
-                pointD.X = pointA.X - pointC.X;
-            }
-            else if (pointA.X < pointB.X && pointB.X > pointC.X && pointA.X > pointC.X)
-            {
-                pointD.X = pointA.X - pointC.X;
-            }
-            else if (pointA.X < pointB.X && pointB.X > pointC.X && pointA.X < pointC.X)
-            {
-                pointD.X = pointC.X - pointA.X;
-            }
-            else if (pointA.X < pointB.X && pointB.X == pointC.X)
-            {
-                pointD.X = pointC.X - pointA.X;
-            }
-            else if (pointA.X > pointB.X && pointB.X == pointC.X)
-            {
-                pointD.X = pointA.X - pointC.X;
-            }
-            else if (pointA.X > pointB.X && pointB.X < pointC.X && pointA.X > pointC.X)
-            {
-                pointD.X = pointA.X - pointC.X;
-            }
-            else if (pointA.X > pointB.X && pointB.X < pointC.X && pointA.X < pointC.X)
-            {
-                pointD.X = pointC.X - pointA.X;
-            }
-
-            // Get Y coordinate.
-            if (pointA.Y == pointC.Y && pointB.Y == pointC.Y)
-            {
-                pointD.Y = pointA.Y;
-            }
-            else if (pointA.Y == pointB.Y && pointB.Y < pointC.Y)
-            {
-                pointD.Y = pointC.Y - pointA.Y;
-            }
-            else if (pointA.Y == pointB.Y && pointB.Y > pointC.Y)
-            {
-                pointD.Y = pointA.Y - pointC.Y;
-            }
-            else if (pointA.Y < pointB.Y && pointB.Y > pointC.Y)
-            {
-                pointD.Y = pointC.Y - pointA.Y;
-            }
-            else if (pointA.Y < pointB.Y && pointB.Y == pointC.Y)
-            {
-                pointD.Y = pointA.Y;
-            }
-            else if (pointA.Y > pointB.Y && pointB.Y == pointC.Y)
-            {
-                pointD.Y = pointA.Y - pointC.Y;
-            }
-            else if (pointA.Y > pointB.Y && pointB.Y < pointC.Y)
-            {
-                pointD.Y = pointC.Y - pointA.Y;
-            }
+            IsItSquare(pointA, pointB, pointC, pointD);
+            Console.WriteLine($"Координаты точки D: (x,y) {pointD.X} {pointD.Y}");
         }
 
         /// <summary>
         /// Get angle between lines.
         /// </summary>
-        public static void IsItSquare(Points pointA, Points pointB, Points pointC)
+        /// <param name="pointA"> PointA.</param>
+        /// <param name="pointB">PointB.</param>
+        /// <param name="pointC">PointC.</param>
+        /// <param name="pointD">PointD.</param>
+        public static void IsItSquare(Points pointA, Points pointB, Points pointC, Points pointD)
         {
             var lines = new float[6];
             lines = GetLines(pointA, pointB, pointC);
@@ -137,7 +64,7 @@ namespace IsItSquare
             else
             {
                 Console.WriteLine("It is square {0}", cos);
-                GetLastPoint(pointA, pointB, pointC);
+                GetLastPointClass.GetLastPoint(pointA, pointB, pointC, pointD);
             }
         }
 
@@ -145,6 +72,9 @@ namespace IsItSquare
         /// Get lines from points.
         /// </summary>
         /// <returns>A B C params from line.</returns>
+        /// <param name="pointA">PointA.</param>
+        /// <param name="pointB">PointB.</param>
+        /// <param name="pointC">PointC.</param>
         public static float[] GetLines(Points pointA, Points pointB, Points pointC)
         {
             var lines = new float[6];
@@ -210,22 +140,6 @@ namespace IsItSquare
         {
             points.X = float.Parse(sPointsCoordinates.xCoordinate);
             points.Y = float.Parse(sPointsCoordinates.yCoordinate);
-        }
-
-        /// <summary>
-        /// Coordinates of points.
-        /// </summary>
-        public class Points
-        {
-            /// <summary>
-            /// Gets or sets x coordinate.
-            /// </summary>
-            public float X { get; set; }
-
-            /// <summary>
-            /// Gets or sets y coordinate.
-            /// </summary>
-            public float Y { get; set; }
         }
     }
 }

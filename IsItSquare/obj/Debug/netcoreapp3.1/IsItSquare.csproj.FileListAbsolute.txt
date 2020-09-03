@@ -12,3 +12,7 @@ E:\Projects\Training.Net\IsItSquare\obj\Debug\netcoreapp3.1\IsItSquare.pdb
 E:\Projects\Training.Net\IsItSquare\obj\Debug\netcoreapp3.1\IsItSquare.genruntimeconfig.cache
 E:\Projects\Training.Net\IsItSquare\obj\Debug\netcoreapp3.1\IsItSquare.csproj.CoreCompileInputs.cache
 E:\Projects\Training.Net\IsItSquare\bin\Debug\netcoreapp3.1\IsItSquare.xml
+E:\Projects\Training.Net\IsItSquare\bin\Debug\netcoreapp3.1\IsItSquareLib.dll
+E:\Projects\Training.Net\IsItSquare\bin\Debug\netcoreapp3.1\IsItSquareLib.pdb
+E:\Projects\Training.Net\IsItSquare\obj\Debug\netcoreapp3.1\IsItSquare.csproj.CopyComplete
+E:\Projects\Training.Net\IsItSquare\bin\Debug\netcoreapp3.1\IsItSquareLib.xml

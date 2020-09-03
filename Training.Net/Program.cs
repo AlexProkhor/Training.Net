@@ -19,9 +19,8 @@ namespace Training.Net
         private static void Main()
         {
             Console.WriteLine("Enter the number of thousands of experiments");
-            /// <example>
-            /// 1 = 1000, 10 = 10000, 100 = 100000 и т.д.
-            /// </example>
+
+            // 1 = 1000, 10 = 10000, 100 = 100000 и т.д.
             int operations = Convert.ToInt32(Console.ReadLine()) * 1000;
 
             Console.WriteLine("Which method will be used? \n 1 - Common string method \n 2 - StringBuilder menthd \n 3 - Both");

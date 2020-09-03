@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IsItSquareTests</name>
+    </assembly>
+    <members>
+        <member name="T:IsItSquareTests.IsItSquareTests">
+            <summary>
+            Test
+            </summary>
+        </member>
+        <member name="M:IsItSquareTests.IsItSquareTests.Test1">
+            <summary>
+            Test
+            </summary>
+        </member>
+        <member name="M:IsItSquareTests.IsItSquareTests.Test2(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            Test
+            </summary>
+        </member>
+    </members>
+</doc>
