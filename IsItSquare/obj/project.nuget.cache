@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "S1Y35KvFCAgdvyRrKUa2j6oYEj4ZBttb0hAVqu2ww+vWsaLql4BROgYp7FiyCsmQD4Gqa0+cm1qBQqH5JLDeoQ==",
+  "success": true,
+  "projectFilePath": "E:\\Projects\\Training.Net\\IsItSquare\\IsItSquare.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Prost\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
+  ],
+  "logs": []
+}

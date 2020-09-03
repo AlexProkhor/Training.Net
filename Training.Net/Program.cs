@@ -1,25 +1,27 @@
-﻿using System;
-using System.Diagnostics;
-using System.Text;
+﻿// <copyright file="Program.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
 
 namespace Training.Net
 {
+    using System;
+    using System.Diagnostics;
+    using System.Text;
 
     /// <summary>
-    /// Проверка скорости работы string и stringBuilder
-    /// Вводится кол-во n тысяч экспериментов (n*1000)
-    /// Идет выбор метода
-    /// НА выходе получаем время выполнения и длинну строки для каждого метода
+    /// Проверка скорости работы string и stringBuilder.
+    /// Вводится кол-во n тысяч экспериментов (n*1000).
+    /// Идет выбор метода.
+    /// НА выходе получаем время выполнения и длинну строки для каждого метода.
     /// </summary>
-    class Program
+    internal class Program
     {
-        static void Main()
+        private static void Main()
         {
-
             Console.WriteLine("Enter the number of thousands of experiments");
-            ///<example>
-            ///1 = 1000, 10 = 10000, 100 = 100000 и т.д.
-            ///</example>
+            /// <example>
+            /// 1 = 1000, 10 = 10000, 100 = 100000 и т.д.
+            /// </example>
             int operations = Convert.ToInt32(Console.ReadLine()) * 1000;
 
             Console.WriteLine("Which method will be used? \n 1 - Common string method \n 2 - StringBuilder menthd \n 3 - Both");
@@ -29,27 +31,34 @@ namespace Training.Net
             switch (methodChange)
             {
                 case 1:
-                    strCommonMethod();
+                    StrCommonMethod();
                     break;
+
                 case 2:
-                    strStringBuilderMethod();
+                    StrStringBuilderMethod();
                     break;
+
                 case 3:
-                    strCommonMethod();
-                    strStringBuilderMethod();
+                    StrCommonMethod();
+                    StrStringBuilderMethod();
+                    break;
+
+                default:
+                    Console.WriteLine(" Edit error!");
                     break;
             }
 
             Console.WriteLine("Experiment done!");
         }
+
         /// <summary>
-        /// Метод без использования stringBuilder
+        /// Метод без использования stringBuilder.
         /// </summary>
-        static void strCommonMethod()
+        private static void StrCommonMethod()
         {
             int operationCount = 0;
-            string commonString = "StarCommon ";
-            Stopwatch stopWatch = new Stopwatch();
+            var commonString = "StarCommon ";
+            var stopWatch = new Stopwatch();
 
             stopWatch.Start();
             while (operationCount != 400000)
@@ -57,22 +66,29 @@ namespace Training.Net
                 commonString += "1";
                 operationCount++;
             }
+
             stopWatch.Stop();
             TimeSpan ts = stopWatch.Elapsed;
-            string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}",
-            ts.Hours, ts.Minutes, ts.Seconds,
-            ts.Milliseconds / 10);
+
+            string elapsedTime =
+                string.Format(
+                    "{0:00}:{1:00}:{2:00}.{3:00}",
+                    ts.Hours,
+                    ts.Minutes,
+                    ts.Seconds,
+                    ts.Milliseconds / 10);
             Console.WriteLine($" strCommonMethod whith 100000 operations: {elapsedTime} lenght: {commonString.Length}");
         }
+
         /// <summary>
-        /// Метод с использованием stringBuilder
+        /// Метод с использованием stringBuilder.
         /// </summary>
-        static void strStringBuilderMethod()
+        private static void StrStringBuilderMethod()
         {
             int operationCount = 0;
-            string commonString = "StarStringBuilder: ";
-            StringBuilder sBuilder = new StringBuilder(commonString);
-            Stopwatch stopWatch = new Stopwatch();
+            var commonString = "StarStringBuilder: ";
+            var sBuilder = new StringBuilder(commonString);
+            var stopWatch = new Stopwatch();
 
             stopWatch.Start();
             while (operationCount != 400000000)
@@ -80,11 +96,17 @@ namespace Training.Net
                 sBuilder.Append("1");
                 operationCount++;
             }
+
             stopWatch.Stop();
             TimeSpan ts = stopWatch.Elapsed;
-            string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}",
-            ts.Hours, ts.Minutes, ts.Seconds,
-            ts.Milliseconds / 10);
+
+            string elapsedTime =
+                string.Format(
+                    "{0:00}:{1:00}:{2:00}.{3:00}",
+                    ts.Hours,
+                    ts.Minutes,
+                    ts.Seconds,
+                    ts.Milliseconds / 10);
             Console.WriteLine($" strCommonMethod whith 400000000 operations: {elapsedTime} lenght: {sBuilder.Length}");
         }
     }

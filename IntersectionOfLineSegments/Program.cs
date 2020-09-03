@@ -1,48 +1,54 @@
-﻿using System;
+﻿// <copyright file="Program.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
 
 namespace IntersectionOfLineSegments
 {
-    class Program
+    using System;
+
+    /// <summary>
+    /// Пересечение двух отрезков [A,B] и [C,D] на числовой прямой.
+    /// </summary>
+    internal class Program
     {
         /// <summary>
-        /// Programm gets intersection of two lines 
-        /// Created by 4 points 
+        /// Programm gets intersection of two lines.
+        /// Created by 4 points.
         /// </summary>
-
-        static void Main()
+        private static void Main()
         {
-            int aOfAB, bOfAB, cOfCD, dOfCD;
             Console.WriteLine("Enter 1rst point of 1rst segment");
-            aOfAB = Convert.ToInt32(Console.ReadLine());
+            int aOfAB = Convert.ToInt32(Console.ReadLine());
+
             Console.WriteLine("Enter 2nd point of 1rst segment");
-            bOfAB = Convert.ToInt32(Console.ReadLine());
-            ///<summary>
-            ///Get min and max value of AB
-            ///</summary>
+            int bOfAB = Convert.ToInt32(Console.ReadLine());
+
+            // Get min and max value of AB.
             var result = AssingMinMax(aOfAB, bOfAB);
             int abMin = result.min;
             int abMax = result.max;
             Console.WriteLine("Enter 1rst point of 2nd segment");
-            cOfCD = Convert.ToInt32(Console.ReadLine());
+            int cOfCD = Convert.ToInt32(Console.ReadLine());
+
             Console.WriteLine("Enter 2nd point of 2nd segment");
-            dOfCD = Convert.ToInt32(Console.ReadLine());
-            ///<summary>
-            ///Get min and max value of CD
-            ///</summary>
+            int dOfCD = Convert.ToInt32(Console.ReadLine());
+
+            // Get min and max value of CD.
             result = AssingMinMax(cOfCD, dOfCD);
             int cdMin = result.min;
             int cdMax = result.max;
             Console.WriteLine($" AB segment : A: {aOfAB}, B: {bOfAB}; \n CD segment : C: {cOfCD}, D: {dOfCD}");
-            GetIntersection(abMin, abMax, cdMin, cdMax);
 
+            GetIntersection(abMin, abMax, cdMin, cdMax);
         }
+
         /// <summary>
-        /// Defines the extreme points of the line
+        /// Defines the extreme points of the line.
         /// </summary>
-        /// <param name="first">first introduced point</param>
-        /// <param name="second">second introduced point</param>
-        /// <returns>defines the extreme points of the line</returns>
-        static int FindMinMax(int first, int second)
+        /// <param name="first">first introduced point.</param>
+        /// <param name="second">second introduced point.</param>
+        /// <returns>defines the extreme points of the line.</returns>
+        private static int FindMinMax(int first, int second)
         {
             if (first < second)
             {
@@ -57,17 +63,17 @@ namespace IntersectionOfLineSegments
                 return 2;
             }
         }
+
         /// <summary>
-        /// Get min and max point of line
+        /// Get min and max point of line.
         /// </summary>
-        /// <param name="first">first introduced point</param>
-        /// <param name="second">second introduced point</param>
-        /// <returns>returns min and max point of number line</returns>
-        static (int min, int max) AssingMinMax(int first, int second)
+        /// <param name="first">first introduced point.</param>
+        /// <param name="second">second introduced point.</param>
+        /// <returns>returns min and max point of number line.</returns>
+        private static (int min, int max) AssingMinMax(int first, int second)
         {
             int min, max;
-            byte minMaxResult;
-            minMaxResult = Convert.ToByte(FindMinMax(first, second));
+            byte minMaxResult = Convert.ToByte(FindMinMax(first, second));
             if (minMaxResult == 0)
             {
                 min = first;
@@ -83,27 +89,29 @@ namespace IntersectionOfLineSegments
                 min = first;
                 max = second;
             }
+
             return (min, max);
         }
+
         /// <summary>
-        /// Finnaly count of number line
+        /// Finnaly count of number line.
         /// </summary>
-        /// <param name="abMin"></param>
-        /// <param name="abMax"></param>
-        /// <param name="cdMin"></param>
-        /// <param name="cdMax"></param>
-        static void GetIntersection(int abMin, int abMax, int cdMin, int cdMax)
+        /// <param name="abMin">abmin.</param>
+        /// <param name="abMax">abMax.</param>
+        /// <param name="cdMin">cdMin.</param>
+        /// <param name="cdMax">cdMax.</param>
+        public static void GetIntersection(int abMin, int abMax, int cdMin, int cdMax)
         {
-            //if they are not intersect returns message
-            int minValue, generalMaxRange;
             if (cdMax < abMin || abMax < cdMin)
             {
+                // If they are not intersect returns message.
                 Console.WriteLine("They are not interect");
             }
             else
             {
-                ///<summary>
-                ///Get general min value
+                int minValue, generalMaxRange;
+                /// <summary>
+                /// Get general min value.
                 /// </summary>
                 if (abMin < cdMin)
                 {
@@ -113,9 +121,13 @@ namespace IntersectionOfLineSegments
                 {
                     minValue = abMin;
                 }
-                else minValue = abMin;
-                ///<summary>
-                ///Get general max value
+                else
+                {
+                    minValue = abMin;
+                }
+
+                /// <summary>
+                /// Get general max value.
                 /// </summary>
                 if (abMax < cdMax)
                 {
@@ -125,16 +137,19 @@ namespace IntersectionOfLineSegments
                 {
                     generalMaxRange = cdMax;
                 }
-                else generalMaxRange = abMax;
-                ///<summary>
-                ///Return intersection of lines
+                else
+                {
+                    generalMaxRange = abMax;
+                }
+
+                /// <summary>
+                /// Return intersection of lines.
                 /// </summary>
                 while (minValue - 1 != generalMaxRange)
                 {
                     Console.Write($"{minValue} ");
                     minValue++;
                 }
-
             }
         }
     }

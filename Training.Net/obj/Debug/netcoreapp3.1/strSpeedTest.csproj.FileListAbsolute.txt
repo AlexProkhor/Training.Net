@@ -6,8 +6,6 @@ E:\Projects\Training.Net\Training.Net\bin\Debug\netcoreapp3.1\strSpeedTest.dll
 E:\Projects\Training.Net\Training.Net\bin\Debug\netcoreapp3.1\strSpeedTest.pdb
 E:\Projects\Training.Net\Training.Net\obj\Debug\netcoreapp3.1\strSpeedTest.AssemblyInfoInputs.cache
 E:\Projects\Training.Net\Training.Net\obj\Debug\netcoreapp3.1\strSpeedTest.AssemblyInfo.cs
-E:\Projects\Training.Net\Training.Net\obj\Debug\netcoreapp3.1\strSpeedTest.csproj.CoreCompileInputs.cache
 E:\Projects\Training.Net\Training.Net\obj\Debug\netcoreapp3.1\strSpeedTest.dll
 E:\Projects\Training.Net\Training.Net\obj\Debug\netcoreapp3.1\strSpeedTest.pdb
 E:\Projects\Training.Net\Training.Net\obj\Debug\netcoreapp3.1\strSpeedTest.genruntimeconfig.cache
-E:\Projects\Training.Net\Training.Net\obj\Debug\netcoreapp3.1\strSpeedTest.csprojAssemblyReference.cache

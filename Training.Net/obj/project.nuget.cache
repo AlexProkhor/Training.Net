@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "adG9UbV2l118qMyk27B2Xrw/3589CtrZCla88CrSj+mX5u0wsrOiY/M5cZ3Bbc7of1NhW1qh4HDb48WZGs2K7Q==",
+  "dgSpecHash": "qkNYpEro0EyErlUbXAZlKUj4jgI+ErbtRjgAz/pbTodH+okBxZhzeEeABdVpfUPAi3XcQd3tVBswLtixILExMg==",
   "success": true,
   "projectFilePath": "E:\\Projects\\Training.Net\\Training.Net\\strSpeedTest.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Prost\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
+  ],
   "logs": []
 }
