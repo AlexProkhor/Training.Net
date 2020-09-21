@@ -6,6 +6,7 @@ namespace IntersectionOfLineSegments
 {
     using System;
 
+	// Вы же наверное уже знаете ООП, старайтесь писать всё же с использование классов и объектов
     /// <summary>
     /// Пересечение двух отрезков [A,B] и [C,D] на числовой прямой.
     /// </summary>
@@ -50,6 +51,7 @@ namespace IntersectionOfLineSegments
         /// <returns>defines the extreme points of the line.</returns>
         private static int FindMinMax(int first, int second)
         {
+			// rsalimov: лучше в таком случае из enum элемент возврашать
             if (first < second)
             {
                 return 0;
@@ -102,6 +104,8 @@ namespace IntersectionOfLineSegments
         /// <param name="cdMax">cdMax.</param>
         public static void GetIntersection(int abMin, int abMax, int cdMin, int cdMax)
         {
+			// rsalimov: у вас получилось сложное решение. всё решается проще
+			// max(a,c) ; min (b,d) - будет пересечением
             if (cdMax < abMin || abMax < cdMin)
             {
                 // If they are not intersect returns message.
