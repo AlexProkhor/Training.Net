@@ -57,6 +57,7 @@ namespace IsItSquare
                 / Math.Sqrt((lines[0] * lines[0]) + (lines[1] * lines[1]))
                 * Math.Sqrt((lines[3] * lines[3]) + (lines[4] * lines[4])));
 
+			// rsalimov: не мешайте логик и вывод, надо в разные методы разносить
             if (cos != 0)
             {
                 Console.WriteLine("It is not square {0}", cos);
@@ -108,6 +109,8 @@ namespace IsItSquare
         /// <param name="points"> object.</param>
         public static void GetPointCoordinates(string pointСoordinates, Points points)
         {
+			// rsalimov: как-то у вас тут всё очень сложно
+			// почему просто нельзя распарсить по пробелу и записать в точки координаты?
             (string xCoordinate, string yCoordinate) sPointsCoordinates;
             string coordinate = null;
             var sBuildPointCoordinate = new StringBuilder(coordinate);
@@ -140,6 +143,7 @@ namespace IsItSquare
         {
             points.X = float.Parse(sPointsCoordinates.xCoordinate);
             points.Y = float.Parse(sPointsCoordinates.yCoordinate);
+			// rsalimov: плохо менять параметры методы, правильнее делать return
         }
     }
 }

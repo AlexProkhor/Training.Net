@@ -45,6 +45,8 @@
         /// <param name="pointD">PointD.</param>
         public static void GetLastPoint(Points pointA, Points pointB, Points pointC, Points pointD)
         {
+			// rsalimov: ниже у вас повторы кода...
+			// да и сам метод очень длинный, стараться сокращать надо
             // Get x coordinate.
             if (pointA.X == pointB.X && pointB.X > pointC.X)//!
             {
