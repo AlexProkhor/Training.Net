@@ -4,18 +4,18 @@
         <name>IsItSquare</name>
     </assembly>
     <members>
-        <member name="T:IsItSquare.Program">
+        <member name="T:IsItSquare.IsItSquareProgram">
             <summary>
             Заданы координаты трех точек на плоскости. Являются ли они вершинами квадрата? Если да, то найти координаты четвертой вершины.
             Ввод осуществляется с пробелами "1 2 ".
             </summary>
         </member>
-        <member name="M:IsItSquare.Program.Main">
+        <member name="M:IsItSquare.IsItSquareProgram.Main">
             <summary>
             Main.
             </summary>
         </member>
-        <member name="M:IsItSquare.Program.IsItSquare(IsItSquareLib.Points,IsItSquareLib.Points,IsItSquareLib.Points,IsItSquareLib.Points)">
+        <member name="M:IsItSquare.IsItSquareProgram.IsItSquare(IsItSquareLib.Points,IsItSquareLib.Points,IsItSquareLib.Points,IsItSquareLib.Points)">
             <summary>
             Get angle between lines.
             </summary>
@@ -24,7 +24,7 @@
             <param name="pointC">PointC.</param>
             <param name="pointD">PointD.</param>
         </member>
-        <member name="M:IsItSquare.Program.GetLines(IsItSquareLib.Points,IsItSquareLib.Points,IsItSquareLib.Points)">
+        <member name="M:IsItSquare.IsItSquareProgram.GetLines(IsItSquareLib.Points,IsItSquareLib.Points,IsItSquareLib.Points)">
             <summary>
             Get lines from points.
             </summary>
@@ -33,14 +33,14 @@
             <param name="pointB">PointB.</param>
             <param name="pointC">PointC.</param>
         </member>
-        <member name="M:IsItSquare.Program.GetPointCoordinates(System.String,IsItSquareLib.Points)">
+        <member name="M:IsItSquare.IsItSquareProgram.GetPointCoordinates(System.String,IsItSquareLib.Points)">
             <summary>
             Separation of points.
             </summary>
             <param name="pointСoordinates">string point coordinates.</param>
             <param name="points"> object.</param>
         </member>
-        <member name="M:IsItSquare.Program.GetPoint(IsItSquareLib.Points,System.ValueTuple{System.String,System.String})">
+        <member name="M:IsItSquare.IsItSquareProgram.GetPoint(IsItSquareLib.Points,System.ValueTuple{System.String,System.String})">
             <summary>
             String to float.
             </summary>

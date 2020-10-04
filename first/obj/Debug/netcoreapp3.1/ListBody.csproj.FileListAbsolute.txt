@@ -1,0 +1,13 @@
+E:\Projects\Training.Net\first\bin\Debug\netcoreapp3.1\ListBody.exe
+E:\Projects\Training.Net\first\bin\Debug\netcoreapp3.1\ListBody.deps.json
+E:\Projects\Training.Net\first\bin\Debug\netcoreapp3.1\ListBody.runtimeconfig.json
+E:\Projects\Training.Net\first\bin\Debug\netcoreapp3.1\ListBody.runtimeconfig.dev.json
+E:\Projects\Training.Net\first\bin\Debug\netcoreapp3.1\ListBody.dll
+E:\Projects\Training.Net\first\bin\Debug\netcoreapp3.1\ListBody.pdb
+E:\Projects\Training.Net\first\obj\Debug\netcoreapp3.1\ListBody.csprojAssemblyReference.cache
+E:\Projects\Training.Net\first\obj\Debug\netcoreapp3.1\ListBody.AssemblyInfoInputs.cache
+E:\Projects\Training.Net\first\obj\Debug\netcoreapp3.1\ListBody.AssemblyInfo.cs
+E:\Projects\Training.Net\first\obj\Debug\netcoreapp3.1\ListBody.csproj.CoreCompileInputs.cache
+E:\Projects\Training.Net\first\obj\Debug\netcoreapp3.1\ListBody.dll
+E:\Projects\Training.Net\first\obj\Debug\netcoreapp3.1\ListBody.pdb
+E:\Projects\Training.Net\first\obj\Debug\netcoreapp3.1\ListBody.genruntimeconfig.cache

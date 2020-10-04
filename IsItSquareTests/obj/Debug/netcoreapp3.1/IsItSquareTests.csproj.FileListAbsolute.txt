@@ -86,7 +86,6 @@ E:\Projects\Training.Net\IsItSquareTests\bin\Debug\netcoreapp3.1\zh-Hans\Microso
 E:\Projects\Training.Net\IsItSquareTests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 E:\Projects\Training.Net\IsItSquareTests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 E:\Projects\Training.Net\IsItSquareTests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-E:\Projects\Training.Net\IsItSquareTests\obj\Debug\netcoreapp3.1\IsItSquareTests.csprojAssemblyReference.cache
 E:\Projects\Training.Net\IsItSquareTests\obj\Debug\netcoreapp3.1\IsItSquareTests.AssemblyInfoInputs.cache
 E:\Projects\Training.Net\IsItSquareTests\obj\Debug\netcoreapp3.1\IsItSquareTests.AssemblyInfo.cs
 E:\Projects\Training.Net\IsItSquareTests\obj\Debug\netcoreapp3.1\IsItSquareTests.csproj.CoreCompileInputs.cache
@@ -98,3 +97,4 @@ E:\Projects\Training.Net\IsItSquareTests\bin\Debug\netcoreapp3.1\IsItSquareTests
 E:\Projects\Training.Net\IsItSquareTests\bin\Debug\netcoreapp3.1\IsItSquareLib.dll
 E:\Projects\Training.Net\IsItSquareTests\bin\Debug\netcoreapp3.1\IsItSquareLib.pdb
 E:\Projects\Training.Net\IsItSquareTests\bin\Debug\netcoreapp3.1\IsItSquareLib.xml
+E:\Projects\Training.Net\IsItSquareTests\obj\Debug\netcoreapp3.1\IsItSquareTests.csprojAssemblyReference.cache

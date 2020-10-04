@@ -7,3 +7,4 @@ E:\Projects\Training.Net\IsItSquareLib\obj\Debug\netcoreapp3.1\IsItSquareLib.csp
 E:\Projects\Training.Net\IsItSquareLib\obj\Debug\netcoreapp3.1\IsItSquareLib.dll
 E:\Projects\Training.Net\IsItSquareLib\obj\Debug\netcoreapp3.1\IsItSquareLib.pdb
 E:\Projects\Training.Net\IsItSquareLib\bin\Debug\netcoreapp3.1\IsItSquareLib.xml
+E:\Projects\Training.Net\IsItSquareLib\obj\Debug\netcoreapp3.1\IsItSquareLib.csprojAssemblyReference.cache

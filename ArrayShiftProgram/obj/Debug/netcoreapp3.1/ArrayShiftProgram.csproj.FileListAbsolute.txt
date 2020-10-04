@@ -1,0 +1,12 @@
+E:\Projects\Training.Net\ArrayShiftProgram\bin\Debug\netcoreapp3.1\ArrayShiftProgram.exe
+E:\Projects\Training.Net\ArrayShiftProgram\obj\Debug\netcoreapp3.1\ArrayShiftProgram.AssemblyInfoInputs.cache
+E:\Projects\Training.Net\ArrayShiftProgram\obj\Debug\netcoreapp3.1\ArrayShiftProgram.AssemblyInfo.cs
+E:\Projects\Training.Net\ArrayShiftProgram\bin\Debug\netcoreapp3.1\ArrayShiftProgram.deps.json
+E:\Projects\Training.Net\ArrayShiftProgram\bin\Debug\netcoreapp3.1\ArrayShiftProgram.runtimeconfig.json
+E:\Projects\Training.Net\ArrayShiftProgram\bin\Debug\netcoreapp3.1\ArrayShiftProgram.runtimeconfig.dev.json
+E:\Projects\Training.Net\ArrayShiftProgram\bin\Debug\netcoreapp3.1\ArrayShiftProgram.dll
+E:\Projects\Training.Net\ArrayShiftProgram\bin\Debug\netcoreapp3.1\ArrayShiftProgram.pdb
+E:\Projects\Training.Net\ArrayShiftProgram\obj\Debug\netcoreapp3.1\ArrayShiftProgram.dll
+E:\Projects\Training.Net\ArrayShiftProgram\obj\Debug\netcoreapp3.1\ArrayShiftProgram.pdb
+E:\Projects\Training.Net\ArrayShiftProgram\obj\Debug\netcoreapp3.1\ArrayShiftProgram.genruntimeconfig.cache
+E:\Projects\Training.Net\ArrayShiftProgram\obj\Debug\netcoreapp3.1\ArrayShiftProgram.csproj.CoreCompileInputs.cache

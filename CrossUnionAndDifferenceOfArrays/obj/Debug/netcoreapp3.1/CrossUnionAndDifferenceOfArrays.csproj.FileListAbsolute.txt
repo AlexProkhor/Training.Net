@@ -1,0 +1,13 @@
+E:\Projects\Training.Net\CrossUnionAndDifferenceOfArrays\bin\Debug\netcoreapp3.1\CrossUnionAndDifferenceOfArrays.exe
+E:\Projects\Training.Net\CrossUnionAndDifferenceOfArrays\bin\Debug\netcoreapp3.1\CrossUnionAndDifferenceOfArrays.deps.json
+E:\Projects\Training.Net\CrossUnionAndDifferenceOfArrays\bin\Debug\netcoreapp3.1\CrossUnionAndDifferenceOfArrays.runtimeconfig.json
+E:\Projects\Training.Net\CrossUnionAndDifferenceOfArrays\bin\Debug\netcoreapp3.1\CrossUnionAndDifferenceOfArrays.runtimeconfig.dev.json
+E:\Projects\Training.Net\CrossUnionAndDifferenceOfArrays\bin\Debug\netcoreapp3.1\CrossUnionAndDifferenceOfArrays.dll
+E:\Projects\Training.Net\CrossUnionAndDifferenceOfArrays\bin\Debug\netcoreapp3.1\CrossUnionAndDifferenceOfArrays.pdb
+E:\Projects\Training.Net\CrossUnionAndDifferenceOfArrays\obj\Debug\netcoreapp3.1\CrossUnionAndDifferenceOfArrays.AssemblyInfoInputs.cache
+E:\Projects\Training.Net\CrossUnionAndDifferenceOfArrays\obj\Debug\netcoreapp3.1\CrossUnionAndDifferenceOfArrays.AssemblyInfo.cs
+E:\Projects\Training.Net\CrossUnionAndDifferenceOfArrays\obj\Debug\netcoreapp3.1\CrossUnionAndDifferenceOfArrays.dll
+E:\Projects\Training.Net\CrossUnionAndDifferenceOfArrays\obj\Debug\netcoreapp3.1\CrossUnionAndDifferenceOfArrays.pdb
+E:\Projects\Training.Net\CrossUnionAndDifferenceOfArrays\obj\Debug\netcoreapp3.1\CrossUnionAndDifferenceOfArrays.genruntimeconfig.cache
+E:\Projects\Training.Net\CrossUnionAndDifferenceOfArrays\obj\Debug\netcoreapp3.1\CrossUnionAndDifferenceOfArrays.csproj.CoreCompileInputs.cache
+E:\Projects\Training.Net\CrossUnionAndDifferenceOfArrays\obj\Debug\netcoreapp3.1\CrossUnionAndDifferenceOfArrays.csprojAssemblyReference.cache

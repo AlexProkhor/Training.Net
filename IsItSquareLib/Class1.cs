@@ -5,11 +5,15 @@
     /// </summary>
     public class Points
     {
+#pragma warning disable CS1591 // Отсутствует комментарий XML для открытого видимого типа или члена
         public Points()
+#pragma warning restore CS1591 // Отсутствует комментарий XML для открытого видимого типа или члена
         {
         }
 
+#pragma warning disable CS1591 // Отсутствует комментарий XML для открытого видимого типа или члена
         public Points(float x, float y)
+#pragma warning restore CS1591 // Отсутствует комментарий XML для открытого видимого типа или члена
         {
             X = x;
             Y = y;

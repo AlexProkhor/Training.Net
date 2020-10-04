@@ -4,4 +4,4 @@
 
 using System.Diagnostics.CodeAnalysis;
 
-[assembly: SuppressMessage("StyleCop.CSharp.OrderingRules", "SA1202:Elements should be ordered by access", Justification = "<Ожидание>", Scope = "member", Target = "~M:IntersectionOfLineSegments.Program.GetIntersection(System.Int32,System.Int32,System.Int32,System.Int32)")]
+[assembly: SuppressMessage("StyleCop.CSharp.OrderingRules", "SA1202:Elements should be ordered by access", Justification = "<Ожидание>", Scope = "member", Target = "~M:IntersectionOfLineSegments.IntersectionOfLinesProgram.GetIntersection(System.Int32,System.Int32,System.Int32,System.Int32)")]

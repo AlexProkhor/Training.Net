@@ -1,0 +1,12 @@
+E:\Projects\Training.Net\ConsoleApp2\bin\Debug\netcoreapp3.1\ConsoleApp2.exe
+E:\Projects\Training.Net\ConsoleApp2\bin\Debug\netcoreapp3.1\ConsoleApp2.deps.json
+E:\Projects\Training.Net\ConsoleApp2\bin\Debug\netcoreapp3.1\ConsoleApp2.runtimeconfig.json
+E:\Projects\Training.Net\ConsoleApp2\bin\Debug\netcoreapp3.1\ConsoleApp2.runtimeconfig.dev.json
+E:\Projects\Training.Net\ConsoleApp2\bin\Debug\netcoreapp3.1\ConsoleApp2.dll
+E:\Projects\Training.Net\ConsoleApp2\bin\Debug\netcoreapp3.1\ConsoleApp2.pdb
+E:\Projects\Training.Net\ConsoleApp2\obj\Debug\netcoreapp3.1\ConsoleApp2.csprojAssemblyReference.cache
+E:\Projects\Training.Net\ConsoleApp2\obj\Debug\netcoreapp3.1\ConsoleApp2.AssemblyInfoInputs.cache
+E:\Projects\Training.Net\ConsoleApp2\obj\Debug\netcoreapp3.1\ConsoleApp2.AssemblyInfo.cs
+E:\Projects\Training.Net\ConsoleApp2\obj\Debug\netcoreapp3.1\ConsoleApp2.dll
+E:\Projects\Training.Net\ConsoleApp2\obj\Debug\netcoreapp3.1\ConsoleApp2.pdb
+E:\Projects\Training.Net\ConsoleApp2\obj\Debug\netcoreapp3.1\ConsoleApp2.genruntimeconfig.cache

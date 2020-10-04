@@ -4,18 +4,18 @@
         <name>IntersectionOfLines</name>
     </assembly>
     <members>
-        <member name="T:IntersectionOfLineSegments.Program">
+        <member name="T:IntersectionOfLineSegments.IntersectionOfLinesProgram">
             <summary>
             Пересечение двух отрезков [A,B] и [C,D] на числовой прямой.
             </summary>
         </member>
-        <member name="M:IntersectionOfLineSegments.Program.Main">
+        <member name="M:IntersectionOfLineSegments.IntersectionOfLinesProgram.Main">
             <summary>
             Programm gets intersection of two lines.
             Created by 4 points.
             </summary>
         </member>
-        <member name="M:IntersectionOfLineSegments.Program.FindMinMax(System.Int32,System.Int32)">
+        <member name="M:IntersectionOfLineSegments.IntersectionOfLinesProgram.FindMinMax(System.Int32,System.Int32)">
             <summary>
             Defines the extreme points of the line.
             </summary>
@@ -23,7 +23,7 @@
             <param name="second">second introduced point.</param>
             <returns>defines the extreme points of the line.</returns>
         </member>
-        <member name="M:IntersectionOfLineSegments.Program.AssingMinMax(System.Int32,System.Int32)">
+        <member name="M:IntersectionOfLineSegments.IntersectionOfLinesProgram.AssingMinMax(System.Int32,System.Int32)">
             <summary>
             Get min and max point of line.
             </summary>
@@ -31,7 +31,7 @@
             <param name="second">second introduced point.</param>
             <returns>returns min and max point of number line.</returns>
         </member>
-        <member name="M:IntersectionOfLineSegments.Program.GetIntersection(System.Int32,System.Int32,System.Int32,System.Int32)">
+        <member name="M:IntersectionOfLineSegments.IntersectionOfLinesProgram.GetIntersection(System.Int32,System.Int32,System.Int32,System.Int32)">
             <summary>
             Finnaly count of number line.
             </summary>

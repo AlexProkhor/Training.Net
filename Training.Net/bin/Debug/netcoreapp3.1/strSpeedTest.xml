@@ -4,7 +4,7 @@
         <name>strSpeedTest</name>
     </assembly>
     <members>
-        <member name="T:Training.Net.Program">
+        <member name="T:Training.Net.StrSpeedTestProgram">
             <summary>
             Проверка скорости работы string и stringBuilder.
             Вводится кол-во n тысяч экспериментов (n*1000).
@@ -12,12 +12,12 @@
             НА выходе получаем время выполнения и длинну строки для каждого метода.
             </summary>
         </member>
-        <member name="M:Training.Net.Program.StrCommonMethod">
+        <member name="M:Training.Net.StrSpeedTestProgram.StrCommonMethod">
             <summary>
             Метод без использования stringBuilder.
             </summary>
         </member>
-        <member name="M:Training.Net.Program.StrStringBuilderMethod">
+        <member name="M:Training.Net.StrSpeedTestProgram.StrStringBuilderMethod">
             <summary>
             Метод с использованием stringBuilder.
             </summary>
