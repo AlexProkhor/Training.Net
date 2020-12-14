@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CalculatorApp": {
+      "commandName": "Project",
+      "commandLineArgs": "1 d 2"
+    }
+  }
+}
