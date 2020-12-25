@@ -1,0 +1,64 @@
+﻿@model Prokhor.Data.ShopBag
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>ShopBag</h4>
+<form asp-action="Edit">
+    <div class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ID)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ID)
+        </dd>
+
+        <dt class="col-sm-2">
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+        </dt>
+        <dt class="col-sm-2">
+            <div>
+                <label>Product</label><br />
+                @Html.DropDownListFor(model => model.Status, new List<SelectListItem> {
+                       new SelectListItem {Value = "Sent", Text = "Sent" },
+                       new SelectListItem { Value = "Preparation", Text = "Preparation" }
+                    },
+                  new { @class = "myselect" })
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+        </dt>
+        <dt class="col-sm-2">
+            <div class="form-group">
+                <label asp-for="IsItPaid" class="control-label"></label>
+                <input asp-for="IsItPaid" class="form-control" />
+                <span asp-validation-for="IsItPaid" class="text-danger"></span>
+            </div>
+        </dt>
+        <dt class="col-sm-2">
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </dt>
+</form>
+</div>
+<div class="row">
+    <div>
+        <h5>Orders</h5>
+        @*<partial name="DepartmentListPartial" />*@
+        @await Html.PartialAsync("OrderPartial", Model.Orders)
+    </div>
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

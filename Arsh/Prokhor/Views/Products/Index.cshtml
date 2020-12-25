@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Prokhor.Data.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<form asp-action="Index" method="get">
+    <div class="form-actons no-color">
+        <p>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Prodicts name" name="SearchStr" value="@ViewData["CurrentFilter"]">
+                <div>
+                    <button class="btn btn-outline-secondary" type="submit" asp-action="Index">Search</button>
+                </div>
+            </div>
+        </p>
+    </div>
+</form>
+<div class="table">
+
+   
+        @foreach (var item in Model)
+        {
+
+            <div class="card" style="width : 20rem; margin-top: 20px">
+                <div class="card-body">
+                    <h2 class="card-title"> @Html.DisplayFor(entityItem => item.Name)</h2>
+                    <p class="card-text"> Cost:@Html.DisplayFor(entityItem => item.Cost)</p>
+                    <p class="card-text"> Id:@Html.DisplayFor(entityItem => item.Id)</p>
+
+                    <p class="card-link">
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a> |
+                        <a asp-controller="Orders" asp-action="Create" asp-route-id="@item.Id" asp-route-Name="@item.Name" asp-route-Cost="@item.Cost">TakeIt</a>
+                    </p>
+
+                </div>
+            </div>
+        }
+
+</div>
